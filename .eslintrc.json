@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "ignorePatterns": [
+    "dist",
+    "vite.config.*",
+    "postcss.config.js",
+    ".storybook/*",
+    "./tailwind.config.js",
+    "vite-env.d.ts"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "react"],
+  "rules": {}
+}
