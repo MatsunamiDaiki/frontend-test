@@ -1,0 +1,7 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignoreWords": ["hoge"],
+  "ignorePaths": ["node_modules/**", "cspell.json"],
+  "ignoreRegExpList": ["/#region [\\w\\s]*?/#gi", "/#endregion/gi"]
+}
