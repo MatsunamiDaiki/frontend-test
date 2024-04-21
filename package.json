@@ -12,7 +12,7 @@
     "test": "vitest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "pre-push": "run-p tsc"
+    "pre-push": "tsc --noEmit"
   },
   "dependencies": {
     "eslint-config-recommended": "^4.1.0",
